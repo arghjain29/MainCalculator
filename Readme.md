@@ -18,13 +18,13 @@ To get started with the Calculator App, follow these steps:
 3. Build and run the app on an Android device or emulator.
 
 ## TO be added later
-<!-- ## Advanced Operations
+#### Advanced Operations
 
 In addition to the basic mathematical operations, the Calculator App also supports advanced operations. Here are some of the additional features:
 
 - Exponentiation: Perform exponentiation of two numbers.
 - Square Root: Calculate the square root of a number.
-- Modulo: Calculate the remainder of a division operation. -->
+- Modulo: Calculate the remainder of a division operation.
 
 ## License
 
