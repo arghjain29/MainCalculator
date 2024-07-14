@@ -26,9 +26,6 @@ In addition to the basic mathematical operations, the Calculator App also suppor
 - Square Root: Calculate the square root of a number.
 - Modulo: Calculate the remainder of a division operation.
 
-## License
-
-This project is licensed under the [MIT License](LICENSE).
 
 
 
