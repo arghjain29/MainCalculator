@@ -9,29 +9,43 @@
     android:background="@color/almostBlack"
     tools:context=".MainActivity">
 
-    <TextView
+    <androidx.appcompat.widget.AppCompatTextView
         android:id="@+id/numView"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Number"
-        android:gravity="right"
+        android:layout_width="wrap_content"
+        android:layout_height="106dp"
+        android:layout_gravity="end"
         android:layout_marginTop="20dp"
+        android:layout_marginHorizontal="20dp"
+        android:autoSizeMaxTextSize="40sp"
+        android:autoSizeMinTextSize="16sp"
+        android:autoSizeTextType="uniform"
+        android:gravity="right"
+        android:maxLines="1"
         android:padding="20dp"
-        android:textSize="40sp"
-        android:textColor="@color/white"
-         />
+        android:text=" "
+        android:textColor="@color/white" />
 
-    <TextView
+    <androidx.appcompat.widget.AppCompatTextView
         android:id="@+id/resultView"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Result"
+        android:layout_height="95dp"
+        android:layout_gravity="end"
         android:layout_marginTop="20dp"
-        android:padding="20dp"
+        android:layout_marginHorizontal="20dp"
         android:gravity="right"
-        android:textSize="30sp"
-        android:textColor="@color/white"
-        />
+        android:padding="20dp"
+        android:text=" "
+        android:autoSizeMaxTextSize="30sp"
+        android:autoSizeMinTextSize="16sp"
+        android:autoSizeTextType="uniform"
+        android:textColor="@color/white" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="@color/almostBlack"
+        android:layout_marginTop="25dp">
 
     <LinearLayout
         style="@style/buttonRow">
@@ -153,6 +167,7 @@
             android:text="="
             tools:ignore="TextContrastCheck" />
 
+    </LinearLayout>
     </LinearLayout>
 
 </LinearLayout>
