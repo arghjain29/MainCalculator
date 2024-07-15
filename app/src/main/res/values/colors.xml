@@ -5,4 +5,6 @@
     <color name="orange">#ffff8800</color>
     <color name="almostBlack">#222</color>
     <color name="red">#ffff0000</color>
+    <color name="original_button_color">#FF000000</color>
+    <color name="lighter_button_color">#ffff8800</color>
 </resources>
